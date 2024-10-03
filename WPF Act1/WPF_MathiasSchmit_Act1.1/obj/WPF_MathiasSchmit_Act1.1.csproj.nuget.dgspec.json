@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Duxéon\\Downloads\\WPF_MathiasSchmit_Act1.1\\WPF_MathiasSchmit_Act1.1.csproj": {}
+    "C:\\Users\\Duxéon\\Documents\\UAA14\\WPF Act1\\WPF_MathiasSchmit_Act1.1\\WPF_MathiasSchmit_Act1.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Duxéon\\Downloads\\WPF_MathiasSchmit_Act1.1\\WPF_MathiasSchmit_Act1.1.csproj": {
+    "C:\\Users\\Duxéon\\Documents\\UAA14\\WPF Act1\\WPF_MathiasSchmit_Act1.1\\WPF_MathiasSchmit_Act1.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Duxéon\\Downloads\\WPF_MathiasSchmit_Act1.1\\WPF_MathiasSchmit_Act1.1.csproj",
+        "projectUniqueName": "C:\\Users\\Duxéon\\Documents\\UAA14\\WPF Act1\\WPF_MathiasSchmit_Act1.1\\WPF_MathiasSchmit_Act1.1.csproj",
         "projectName": "WPF_MathiasSchmit_Act1.1",
-        "projectPath": "C:\\Users\\Duxéon\\Downloads\\WPF_MathiasSchmit_Act1.1\\WPF_MathiasSchmit_Act1.1.csproj",
+        "projectPath": "C:\\Users\\Duxéon\\Documents\\UAA14\\WPF Act1\\WPF_MathiasSchmit_Act1.1\\WPF_MathiasSchmit_Act1.1.csproj",
         "packagesPath": "C:\\Users\\Duxéon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Duxéon\\Downloads\\WPF_MathiasSchmit_Act1.1\\obj\\",
+        "outputPath": "C:\\Users\\Duxéon\\Documents\\UAA14\\WPF Act1\\WPF_MathiasSchmit_Act1.1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
