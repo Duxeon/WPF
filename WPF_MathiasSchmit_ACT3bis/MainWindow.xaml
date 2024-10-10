@@ -8,16 +8,16 @@
         Title="MainWindow" Height="450" Width="700">
     <Grid Background="#FFE13232">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition  Height="3*"/>
-            <RowDefinition  Height="2*"/>
-            <RowDefinition  Height="2*"/>
+            <RowDefinition  Height="1*"/>
+            <RowDefinition  Height="1*"/>
+            <RowDefinition  Height="1*"/>
         </Grid.RowDefinitions>
-        <GroupBox Header="Type de logement" Foreground="White" FontSize="30" Margin="15,15,15,15">
+        <GroupBox Header="Type de logement" Foreground="White" FontSize="20" Margin="15,14,15,15">
             <StackPanel>
                 <WrapPanel>
                     <CheckBox/>
@@ -29,5 +29,42 @@
                 </WrapPanel>
             </StackPanel>
         </GroupBox>
+
+        <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2,0,0,0">
+            <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBlock Text="Reservation" Foreground="White" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </WrapPanel>
+        
+        <GroupBox Header="Résultats" Foreground="White" FontSize="20" Margin="15,15,15,15" Grid.Row="2" Grid.ColumnSpan="2">
+            <StackPanel>
+                <TextBlock Text="Prix à Payer :"/>
+                <TextBlock Text="Nombre de Semaine : "/>
+            </StackPanel>
+        </GroupBox>
+        
+        <GroupBox Header="Résultats" Foreground="White" FontSize="20" Margin="15,15,15,15" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1" Grid.RowSpan="2">
+            <StackPanel>
+                <WrapPanel>
+                    <TextBlock Text="Nbr de personnes (entre 1 et 6) : "/>
+                    <TextBox Width="25"/>
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock Text="Date de Départ : " Width="175"/>
+                    <DatePicker/>
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock Text="Date d'Arrivée : " Width="175"/>
+                    <DatePicker/>
+                </WrapPanel>
+                <WrapPanel>
+                    <Button Width="175" Content="Duree Sortie"/>
+                    <TextBlock Text="durée en semaine "/>
+                </WrapPanel>
+            </StackPanel>
+        </GroupBox>
+        <StackPanel Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80">
+            <Button FontSize="20"  Width="200" Content="Calculer" VerticalAlignment="Top"/>
+            <Button FontSize="20"  Width="200" Content="init" Margin="0,20,0,0"/>
+        </StackPanel>
     </Grid>
 </Window>
