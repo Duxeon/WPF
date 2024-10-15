@@ -50,15 +50,15 @@
                 </WrapPanel>
                 <WrapPanel>
                     <TextBlock Text="Date de Départ : " Width="175"/>
-                    <DatePicker/>
+                    <DatePicker x:Name="startDate" />
                 </WrapPanel>
                 <WrapPanel>
                     <TextBlock Text="Date d'Arrivée : " Width="175"/>
-                    <DatePicker/>
+                    <DatePicker x:Name="endDate"/>
                 </WrapPanel>
                 <WrapPanel>
-                    <Button Width="175" Content="Duree Sortie"/>
-                    <TextBlock Text="durée en semaine "/>
+                    <Button x:Name="btnTime" Width="175" Content="Duree Sortie"/>
+                    <TextBlock x:Name="textTime" Text="durée en semaine "/>
                 </WrapPanel>
             </StackPanel>
         </GroupBox>
