@@ -20,25 +20,31 @@
         <GroupBox Header="Type de logement" Foreground="White" FontSize="20" Margin="15,14,15,15">
             <StackPanel>
                 <WrapPanel>
-                    <CheckBox/>
+                    <CheckBox x:Name="Chalet"/>
                     <TextBlock Text="Chalet"/>
                 </WrapPanel>
                 <WrapPanel>
-                    <CheckBox/>
+                    <CheckBox x:Name="Tente" IsChecked="False"/>
                     <TextBlock Text="Tente"/>
                 </WrapPanel>
             </StackPanel>
         </GroupBox>
 
         <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2,0,0,0">
-            <CheckBox HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <CheckBox x:Name="Reserved" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBlock Text="Reservation" Foreground="White" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         </WrapPanel>
         
         <GroupBox Header="Résultats" Foreground="White" FontSize="20" Margin="15,15,15,15" Grid.Row="2" Grid.ColumnSpan="2">
             <StackPanel>
-                <TextBlock Text="Prix à Payer :"/>
-                <TextBlock Text="Nombre de Semaine : "/>
+                <WrapPanel>
+                    <TextBlock Text="Prix à Payer :"/>
+                    <TextBlock x:Name="PrixAff" Text=""/>
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock Text="Nombre de Semaine : "/>
+                    <TextBlock  x:Name="SemmAff" Text=""/>
+                </WrapPanel>
             </StackPanel>
         </GroupBox>
         
@@ -46,7 +52,7 @@
             <StackPanel>
                 <WrapPanel>
                     <TextBlock Text="Nbr de personnes (entre 1 et 6) : "/>
-                    <TextBox Width="25"/>
+                    <TextBox x:Name="nbrPersonnes" Width="25"/>
                 </WrapPanel>
                 <WrapPanel>
                     <TextBlock Text="Date de Départ : " Width="175"/>
@@ -63,7 +69,7 @@
             </StackPanel>
         </GroupBox>
         <StackPanel Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80">
-            <Button FontSize="20"  Width="200" Content="Calculer" VerticalAlignment="Top"/>
+            <Button x:Name="btnPrix" FontSize="20"  Width="200" Content="Calculer" VerticalAlignment="Top"/>
             <Button FontSize="20"  Width="200" Content="init" Margin="0,20,0,0"/>
         </StackPanel>
     </Grid>
