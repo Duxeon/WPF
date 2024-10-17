@@ -20,25 +20,23 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <TextBlock Width="275" FontSize="50" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#FF294A29" FontWeight="Bold" Foreground="White" Height="75" TextAlignment="Center">
-            <TextBlock.Text>$affichage</TextBlock.Text>
-        </TextBlock>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Red" Grid.Column="3" Content="C" FontSize="50" FontWeight="Bold"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="2" FontSize="50" FontWeight="Bold" Grid.Column="1" Grid.Row="1"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="3" FontSize="50" FontWeight="Bold" Grid.Row="1" Grid.Column="2"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="4" FontSize="50" FontWeight="Bold" Grid.Row="2"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="5" FontSize="50" FontWeight="Bold" Grid.Row="2" Grid.Column="1"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="6" FontSize="50" FontWeight="Bold" Grid.Row="2" Grid.Column="2"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="7" FontSize="50" FontWeight="Bold" Grid.Row="3"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="8" FontSize="50" FontWeight="Bold" Grid.Row="3" Grid.Column="1"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="9" FontSize="50" FontWeight="Bold" Grid.Row="3" Grid.Column="2"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="0" FontSize="50" FontWeight="Bold" Grid.Row="5" Grid.Column="1"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="1" FontSize="50" FontWeight="Bold" Grid.Row="1"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Yellow" Content="." FontSize="50" FontWeight="Bold" Grid.Row="5"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Yellow" Content="=" FontSize="50" FontWeight="Bold" Grid.Row="4" Grid.Column="2"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Blue" Content="+" FontSize="50" FontWeight="Bold" Grid.Row="1" Grid.Column="3"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Blue" Content="-" FontSize="50" FontWeight="Bold" Grid.Row="2" Grid.Column="3"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Blue" Content="*" FontSize="50" FontWeight="Bold" Grid.Row="3" Grid.Column="3"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Blue" Content="/" FontSize="50" FontWeight="Bold" Grid.Row="4" Grid.Column="3"/>
+        <TextBlock x:Name="affichage" Width="275" FontSize="50" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#FF294A29" FontWeight="Bold" Foreground="White" Height="75" TextAlignment="Center"/>
+        <Button x:Name="btnC" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Red" Grid.Column="3" Content="C" FontSize="50" FontWeight="Bold"/>
+        <Button x:Name="btn2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="2" FontSize="50" FontWeight="Bold" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="btn3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="3" FontSize="50" FontWeight="Bold" Grid.Row="1" Grid.Column="2"/>
+        <Button x:Name="btn4" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="4" FontSize="50" FontWeight="Bold" Grid.Row="2"/>
+        <Button x:Name="btn5" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="5" FontSize="50" FontWeight="Bold" Grid.Row="2" Grid.Column="1"/>
+        <Button x:Name="btn6" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="6" FontSize="50" FontWeight="Bold" Grid.Row="2" Grid.Column="2"/>
+        <Button x:Name="btn7" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="7" FontSize="50" FontWeight="Bold" Grid.Row="3"/>
+        <Button x:Name="btn8" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="8" FontSize="50" FontWeight="Bold" Grid.Row="3" Grid.Column="1"/>
+        <Button x:Name="btn9" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="9" FontSize="50" FontWeight="Bold" Grid.Row="3" Grid.Column="2"/>
+        <Button x:Name="btn0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="0" FontSize="50" FontWeight="Bold" Grid.Row="5" Grid.Column="1"/>
+        <Button x:Name="btn1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Gray" Content="1" FontSize="50" FontWeight="Bold" Grid.Row="1"/>
+        <Button x:Name="btnV" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Yellow" Content="." FontSize="50" FontWeight="Bold" Grid.Row="5"/>
+        <Button x:Name="btnE" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Yellow" Content="=" FontSize="50" FontWeight="Bold" Grid.Row="4" Grid.Column="2"/>
+        <Button x:Name="btnP" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Blue" Content="+" FontSize="50" FontWeight="Bold" Grid.Row="1" Grid.Column="3"/>
+        <Button x:Name="btnM" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Blue" Content="-" FontSize="50" FontWeight="Bold" Grid.Row="2" Grid.Column="3"/>
+        <Button x:Name="btnF" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Blue" Content="*" FontSize="50" FontWeight="Bold" Grid.Row="3" Grid.Column="3"/>
+        <Button x:Name="btnD" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Height="75" Background="Blue" Content="/" FontSize="50" FontWeight="Bold" Grid.Row="4" Grid.Column="3"/>
     </Grid>
 </Window>
