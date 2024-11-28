@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Duxéon\Documents\WPF\WPF_mathiasS_Act4\App.xaml
-11407045341
+41775384497
 
-61323033864
+9472204592
 194750953030
-MainWindow.xaml;
+MainWindow.xaml;Views\Page0.xaml;Views\Page1.xaml;Views\Page2.xaml;
 
 True
 
